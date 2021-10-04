@@ -10,7 +10,7 @@ const Courses = () => {
     }, [])
     return (
         <div className="container my-5">
-            <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-4 g-4">
                 {
                     courses.map(course => <Course
                         key={course.id}

@@ -1,5 +1,5 @@
 import React from 'react';
-import Courses from '../Courses/Courses';
+import BestCourses from '../BestCourses/BestCourses';
 import './Home.css';
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
             </div>
             {/* service details */}
             <section>
-                <h1 className="service-header mt-5">Our's Speciality</h1>
+                <h1 className="service-header mt-5 mb-3">Our's Speciality</h1>
                 <div className="container d-flex justify-content-center mb-5 mt-2">
                     <div className="col service-name m-2 p-3 rounded">
                         <h2 className="fs-3 fw-bold">World Class <br /> Teachers</h2>
@@ -33,10 +33,16 @@ const Home = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint repellendus soluta quasi, quis velit, inventore optio alias et at eveniet voluptate placeat ad natus expedita harum! Quaerat, eos esse?
                         </p>
                     </div>
+                    <div className="col service-name m-2 p-3 rounded">
+                        <h2 className="fs-3 fw-bold">24/7 Hours <br /> Logistic Support</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint repellendus soluta quasi, quis velit, inventore optio alias et at eveniet voluptate placeat ad natus expedita harum! Quaerat, eos esse?
+                        </p>
+                    </div>
                 </div>
             </section>
             {/* best selling course */}
-            <Courses></Courses>
+            <h1 className="mt-5 fw-bold">Best Selling Courses</h1>
+            <BestCourses></BestCourses>
         </div>
     );
 };

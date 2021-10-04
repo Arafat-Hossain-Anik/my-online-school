@@ -1,0 +1,34 @@
+[
+    {
+        "courseName": "HTML/CSS For Beginners",
+        "img": "https://imageshack.com/i/pnN6xK8qj",
+        "price": 80,
+        "id": 1,
+        "totalStudent": 67,
+        "courseTeacher": "Mr. Windy"
+    },
+    {
+        "courseName": "Python Advanced Crush Course",
+        "img": "https://imageshack.com/i/poA2ZYWvj",
+        "price": 100,
+        "id": 2,
+        "totalStudent": 99,
+        "courseTeacher": "Dr. Chuck"
+    },
+    {
+        "courseName": "Be A Javascript Hero, A to Z",
+        "img": "https://imageshack.com/i/pny6ymxRj",
+        "price": 49,
+        "id": 4,
+        "totalStudent": 63,
+        "courseTeacher": "Brendan Eich"
+    },
+    {
+        "courseName": "Seach Engine Optimaization",
+        "img": "https://imageshack.com/i/pniGC14Gj",
+        "price": 53,
+        "id": 5,
+        "totalStudent": 59,
+        "courseTeacher": "Mrs. Geeta Chowdhury"
+    }
+]
