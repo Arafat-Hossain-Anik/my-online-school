@@ -21,19 +21,23 @@ const Home = () => {
                 <h1 className="service-header mt-5 mb-3">Our's Speciality</h1>
                 <div className="container d-flex justify-content-center mb-5 mt-2">
                     <div className="col service-name m-2 p-3 rounded">
+                        <i className="fs-1 text-black-green mb-2 fas fa-chalkboard-teacher"></i>
                         <h2 className="fs-3 fw-bold">World Class <br /> Teachers</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio voluptas sunt dolores eum nulla nobis reiciendis. Velit vero sunt reiciendis fugit, pariatur ducimus deserunt, voluptatem quas a quia harum possimus.</p>
                     </div>
                     <div className="col service-name m-2 p-3 rounded">
+                        <i className="fs-1 text-black-green mb-2 fas fa-laptop-house"></i>
                         <h2 className="fs-3 fw-bold">Fully Online <br /> Courses</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, veritatis illo. Necessitatibus atque qui laborum, molestias debitis porro, aspernatur alias voluptas quisquam nesciunt, officiis repudiandae facere excepturi rerum adipisci quas.</p>
                     </div>
                     <div className="col service-name m-2 p-3 rounded">
+                        <i className="fs-1 text-black-green mb-2 fas fa-hand-holding-usd"></i>
                         <h2 className="fs-3 fw-bold">Scholarship For <br /> Brilliant Student</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint repellendus soluta quasi, quis velit, inventore optio alias et at eveniet voluptate placeat ad natus expedita harum! Quaerat, eos esse?
                         </p>
                     </div>
                     <div className="col service-name m-2 p-3 rounded">
+                        <i className="fs-1 text-black-green mb-2 fas fa-headphones-alt"></i>
                         <h2 className="fs-3 fw-bold">24/7 Hours <br /> Logistic Support</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint repellendus soluta quasi, quis velit, inventore optio alias et at eveniet voluptate placeat ad natus expedita harum! Quaerat, eos esse?
                         </p>

@@ -1,0 +1,42 @@
+[
+    {
+        "topics": "The Dark Side Of Use Excessive Anti-Biotic",
+        "img": "https://imagizer.imageshack.com/img924/4923/tavJg1.jpg",
+        "id": 1,
+        "category": "Medical Science",
+        "writer": "Brain Krans",
+        "details": "Antibiotics are considered the keystone of modern medicine, but their excessive use continues to generate unwanted side effects.The U.S. Centers for Disease Control and Prevention (CDC) isn’t historically known for using pessimistic language, but lately they’ve been sounding the alarms about the consequences of overusing antibiotics.CDC director Tom Frieden has warned of “nightmare bacteria,” those that have evolved defenses against modern antibiotics. This leads to to strains that can cause fatal infections.While specialists are making strides to preserve the effectiveness of antibiotics and to slow potential infections through better policy, the overuse of antibiotics continues to have severe health consequences for the U.S. and around the world."
+    },
+    {
+        "topics": "NASA's Do-It-Yourself PodCast: Rocket Science",
+        "img": "https://imagizer.imageshack.com/img923/1685/wqT27H.jpg",
+        "id": 2,
+        "category": "Rocket Science",
+        "writer": "NASA",
+        "details": "Have you heard the saying, It's not rocket science? Some people think rocket science is a difficult subject to understand. When someone says, It's not rocket science, they mean that something is not too difficult. Rocket scientists are brilliant people, but rocket science is based on concepts you probably already understand. The same basic science concepts and laws work in both huge NASA rockets and small paper ones. No matter the size, all rockets must have a body, a nose cone, fins and a propellant system. The body is the main section of the rocket. This section holds many of the electronics needed to control large rockets. The aerodynamic shape of the nose cone helps prevent air from slowing the rocket. The fins help guide the rocket to fly straight. Finally, the propellant system includes a mixture of fuel and a chemical called an oxidizer that gives off oxygen. The fuel and oxidizer burn together to launch the rocket off the ground."
+    },
+    {
+        "topics": "How artificial intelligence is transforming the world",
+        "img": "https://imagizer.imageshack.com/img922/8969/SmNvFx.jpg",
+        "id": 3,
+        "category": "Artifial Intelligence",
+        "writer": "Darrell M. West",
+        "details": "Most people are not very familiar with the concept of artificial intelligence (AI). As an illustration, when 1,500 senior business leaders in the United States in 2017 were asked about AI, only 17 percent said they were familiar with it.[1] A number of them were not sure what it was or how it would affect their particular companies. They understood there was considerable potential for altering business processes, but were not clear how AI could be deployed within their own organizations."
+    },
+    {
+        "topics": "Death, Physics and Wishful Thinking",
+        "img": "https://imagizer.imageshack.com/img924/595/D1Yzwt.jpg",
+        "id": 4,
+        "category": "Philosophy",
+        "writer": "John Horgan",
+        "details": "There is a whole class ofconjectures that, like religion, give us a privileged position in the cosmic scheme of things. Call them we-were-meant-to-be-here theories. They imply that we are not an accidental, incidental part of nature; our existence is somehow necessary. Without us, the universe might not exist. One example is the anthropic principle, which dates back to the 1960s. The anthropic principle suggests that the laws of nature must take the form that we observe because otherwise we would not be here to observe them. The anthropic principle is a tautology masquerading as a truth, but it has proved remarkably resilient. Stephen Hawking took it seriously, as did Weinberg. A major reason for the endurance of the anthropic principle is the proliferation of multiverse theories, which hold that our universe is just one of many. If you buy multiverses (to which I will return below), the anthropic principle can help explain why we find ourselves in this particular universe with these particular laws."
+    },
+    {
+        "topics": "Himachal Pradesh: A Heaven In Earth",
+        "img": "https://imagizer.imageshack.com/img924/3365/RRSRyu.jpg",
+        "id": 5,
+        "category": "Nature",
+        "writer": "himachal.nic.in",
+        "details": "Himachal Pradesh is a northern Indian state in the Himalayas. It's home to scenic mountain towns and resorts such as Dalhousie. Host to the Dalai Lama, Himachal Pradesh has a strong Tibetan presence. This is reflected in its Buddhist temples and monasteries, as well as its vibrant Tibetan New Year celebrations. The region is also well known for its trekking, climbing and skiing areas."
+    }
+]

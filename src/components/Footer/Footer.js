@@ -3,9 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="bg-secondary text-light footer-container">
-            <small>All Rights Reserved By &copy; A.H.Anik</small>
-
+        <div className="bg-gray text-light footer-container">
+            <h5>All Rights Reserved By &copy; A.H.Anik</h5>
         </div>
     );
 };

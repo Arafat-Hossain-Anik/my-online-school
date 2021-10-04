@@ -1,5 +1,9 @@
 /* footer container design */
 .footer-container{
-    height: 30vh;
-    padding: 0 auto;
+    padding-top: 35px;
+    height: 10vh;
+}
+/* custom color  */
+.bg-gray{
+    background-color: rgb(31, 31, 31);
 }
