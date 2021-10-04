@@ -14,6 +14,7 @@ import SignUpPage from './components/SignUpPage/SignUpPage';
 function App() {
   return (
     <div className="App">
+      {/* all routes of the website */}
       <Router>
         <Header></Header>
         <Switch>
@@ -41,7 +42,6 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
-
     </div>
   );
 }

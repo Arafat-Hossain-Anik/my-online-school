@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
 
 const BestCourses = () => {
+    // fetching best selling courses
     const [courses, setCourses] = useState([]);
     useEffect(() => {
         fetch('./bestSelling.json')
@@ -12,6 +13,7 @@ const BestCourses = () => {
         <div>
             <div className="container my-5">
                 <div className="row row-cols-1 row-cols-md-4 g-4">
+                    {/* showing on ui */}
                     {
                         courses.map(course => <Course
                             key={course.id}

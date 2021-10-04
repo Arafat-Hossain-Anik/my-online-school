@@ -3,7 +3,6 @@ import BestCourses from '../BestCourses/BestCourses';
 import './Home.css';
 
 const Home = () => {
-
     return (
         <div>
             {/* cover image */}
@@ -20,27 +19,29 @@ const Home = () => {
             <section>
                 <h1 className="service-header mt-5 mb-3">Our's Speciality</h1>
                 <div className="container d-flex justify-content-center mb-5 mt-2">
-                    <div className="col service-name m-2 p-3 rounded">
+                    {/* name of Speciality and its details */}
+                    <div className="col border border-dark service-name m-2 p-3 rounded">
                         <i className="fs-1 text-black-green mb-2 fas fa-chalkboard-teacher"></i>
                         <h2 className="fs-3 fw-bold">World Class <br /> Teachers</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio voluptas sunt dolores eum nulla nobis reiciendis. Velit vero sunt reiciendis fugit, pariatur ducimus deserunt, voluptatem quas a quia harum possimus.</p>
+                        <p>Ours Teacher's are best in thier field. World's most experienced teachers are here to tech. They Have the ablity to recognize what student want and which way have to teach them.</p>
                     </div>
-                    <div className="col service-name m-2 p-3 rounded">
+                    {/* name of Speciality and its details */}
+                    <div className="col border border-dark service-name m-2 p-3 rounded">
                         <i className="fs-1 text-black-green mb-2 fas fa-laptop-house"></i>
                         <h2 className="fs-3 fw-bold">Fully Online <br /> Courses</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, veritatis illo. Necessitatibus atque qui laborum, molestias debitis porro, aspernatur alias voluptas quisquam nesciunt, officiis repudiandae facere excepturi rerum adipisci quas.</p>
+                        <p>All of our courses are totaly online based. Because of this, you can take part in class from any where in world. If you miss any class do'nt worry! We record it for you. So that, you can cover up your gap. </p>
                     </div>
-                    <div className="col service-name m-2 p-3 rounded">
+                    {/* name of Speciality and its details */}
+                    <div className="col border border-dark service-name m-2 p-3 rounded">
                         <i className="fs-1 text-black-green mb-2 fas fa-hand-holding-usd"></i>
                         <h2 className="fs-3 fw-bold">Scholarship For <br /> Brilliant Student</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint repellendus soluta quasi, quis velit, inventore optio alias et at eveniet voluptate placeat ad natus expedita harum! Quaerat, eos esse?
-                        </p>
+                        <p>For Brilliant student, we have Scholarship opportunity. Get Schoolarship, you have to send your educational details to us and have to take part to  an short exmination.</p>
                     </div>
-                    <div className="col service-name m-2 p-3 rounded">
+                    {/* name of Speciality and its details */}
+                    <div className="col border border-dark service-name m-2 p-3 rounded">
                         <i className="fs-1 text-black-green mb-2 fas fa-headphones-alt"></i>
                         <h2 className="fs-3 fw-bold">24/7 Hours <br /> Logistic Support</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sint repellendus soluta quasi, quis velit, inventore optio alias et at eveniet voluptate placeat ad natus expedita harum! Quaerat, eos esse?
-                        </p>
+                        <p>We have 24 hours dedicated support team for you. If you face any problem, even in your learning session, don't worry let us know. We will try our best to solve it.</p>
                     </div>
                 </div>
             </section>

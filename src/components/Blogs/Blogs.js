@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 
 const Blogs = () => {
+    // fetching blogs data
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
         fetch('./blog.json')
@@ -9,6 +10,7 @@ const Blogs = () => {
             .then(data => setBlogs(data));
     }, [])
     return (
+        // showing data on ui 
         <div className="container mb-5 text-start">
             <h2 className="fw-bold my-5">Latest Blogs:</h2>
             {

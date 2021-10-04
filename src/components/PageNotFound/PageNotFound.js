@@ -5,7 +5,8 @@ import img from '../../images/404-not-found.jpg';
 const PageNotFound = () => {
 
     return (
-        <div>
+        // when user give an invalid link 
+        <div style={{ height: "74vh" }}>
             <div className="my-5">
                 <img src={img} alt="" />
             </div>

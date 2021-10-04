@@ -2,15 +2,16 @@ import React, { useEffect, useState } from 'react';
 import Developer from '../Developer/Developer';
 
 const AboutUs = () => {
+    // fetching developers data from api
     const [developers, setDevelopers] = useState([]);
     useEffect(() => {
         fetch('./developersData.json')
             .then(res => res.json())
             .then(data => setDevelopers(data));
     }, []);
-
+    // selecting 4 data only from large api
     let developersList = [];
-    let ct = 0;
+    let ct = 0;//counter variable
     for (const developer of developers) {
         developersList.push(developer);
         ct = ct + 1;
@@ -21,21 +22,25 @@ const AboutUs = () => {
     return (
         <div className="container my-5 text-start">
             <div>
+                {/* about online school */}
                 <h2>
                     <i className="fas fa-arrows-alt"></i> Overview</h2>
                 <hr />
                 <div className=" d-flex justify-content-between">
                     <div className="w-50">
+                        {/* details */}
                         <p className="fs-5">
                             "My Online School" is an online based educational platform which is stablished 2021 in the time of COVID pandemic to make education easy and available for everyone. Our's main motto is to give world class education to everyone in minimal cost. "My Online School" is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from worlds best teachers.
                             <br />
                         </p>
                     </div>
+                    {/* details image */}
                     <div>
                         <img src="https://imageshack.com/i/pmRmaUpTj" alt="" style={{ width: "500px" }} />
                     </div>
                 </div>
             </div>
+            {/* showing developers data from developer component */}
             <div>
                 <h2>
                     <i className="fas fa-arrows-alt"></i> Developers</h2>
