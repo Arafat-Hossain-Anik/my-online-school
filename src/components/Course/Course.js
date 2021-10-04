@@ -16,7 +16,7 @@ const Course = (props) => {
                     </div>
                 </div>
                 <div className="mb-2">
-                    <Link to="/services">
+                    <Link to="/enroll">
                         <button className="btn btn-success">Enroll Here</button>
                     </Link>
                 </div>

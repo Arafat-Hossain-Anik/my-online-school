@@ -9,6 +9,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Blogs from './components/Blogs/Blogs';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
+import SignUpPage from './components/SignUpPage/SignUpPage';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blogs></Blogs>
+          </Route>
+          <Route path="/enroll">
+            <SignUpPage></SignUpPage>
           </Route>
           <Route path="*">
             <PageNotFound></PageNotFound>
