@@ -5,7 +5,7 @@ const Services = () => {
     return (
         // courses are calling as services
         <div>
-            <h1 className="fw-bold mt-5">Our's Services:</h1>
+            <h1 className="fw-bold mt-5">Our's Courses:</h1>
             <Courses></Courses>
         </div>
     );
