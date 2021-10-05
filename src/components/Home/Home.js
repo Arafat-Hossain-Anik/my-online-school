@@ -1,5 +1,6 @@
 import React from 'react';
 import BestCourses from '../BestCourses/BestCourses';
+import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
@@ -48,6 +49,8 @@ const Home = () => {
             {/* best selling course */}
             <h1 className="mt-5 fw-bold">Best Selling Courses</h1>
             <BestCourses></BestCourses>
+            {/* student Reviews */}
+            <Reviews></Reviews>
         </div>
     );
 };
