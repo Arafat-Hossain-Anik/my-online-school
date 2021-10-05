@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import BestCourses from '../BestCourses/BestCourses';
 import Reviews from '../Reviews/Reviews';
 import './Home.css';
@@ -12,7 +13,9 @@ const Home = () => {
                     <div className="hero-text">
                         <h1 className="cover-header">Welcome To My Online School</h1>
                         <p className="fs-5">Get World Class Education From World Class Teacher</p>
-                        <button className="btn btn-success"><i className="fas fa-sign-in-alt"></i> Sign Up Now</button>
+                        <NavLink to="/enroll">
+                            <button className="btn btn-success"> <i className="fas fa-sign-in-alt"></i> Sign Up Now</button>
+                        </NavLink>
                     </div>
                 </div>
             </div>
